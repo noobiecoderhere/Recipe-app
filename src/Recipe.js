@@ -3,8 +3,8 @@ import React from 'react';
 const Recipe = props => {
     return(
         <div>
-            <h1>Title: {props.title}</h1>
-            <h3>Calories: {Math.round(props.cal)}</h3>
+            <h1>{props.title}</h1>
+            <p>{Math.round(props.cal)} Cals</p>
             <img src={props.image} alt=""/>
         </div>
     );
